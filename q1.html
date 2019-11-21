@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="Content-Security-Policy" content="default-src *;img-src * 'self' data: https://*; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href='./style/style.css'>
+    <title>Test de connaissance</title>
+  </head>
+  <body>
+    <header>
+      <h1 class='title'>Question 1 : </h1>
+    </header>
+    <main class="main">
+      <div class='container'>
+            <p>Lequelle de ces langage n'existe pas:</p>
+            <div>
+              <input type="radio" id="c" name="q1" value="c">
+              <label for="c">C</label>
+            </div>           
+            <div>
+              <input type="radio" id="c--" name="q1" value="c--">
+              <label for="c--">C--</label>
+            </div>         
+            <div>
+              <input type="radio" id="css" name="q1" value="css">
+              <label for="css">CSS</label>
+            </div>
+            <button id="btnSave"><a href="q2.html">Valider</a></button>
+            <p id="btnSave"></p>
+            <p id="btnQ2"></p>
+            <p id="btnQ3"></p>
+            <p id="btnQ4"></p>
+            <p id="btnQ5"></p>
+            <p id="btnCertif"></p>
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="./renderer.js"></script>
+    <script type="text/javascript" src="file.json"></script>
+  </body>
+</html>
